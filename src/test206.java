@@ -18,6 +18,8 @@ public class test206 {
             head.next = hnext.next;
             hnext.next = dnext;
 
+
+
         }
         return dummy.next;
     }

@@ -14,6 +14,7 @@ public class test496 {
             stack1.push(num);
         }
 
+        //
         // 注意，这里不能像上面的那种遍历对象的方法，因为
         for (int i = 0;i < nums1.length;i++) {
             Stack<Integer> remainStack = new Stack();

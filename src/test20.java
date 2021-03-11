@@ -9,20 +9,6 @@ public class test20 {
             return true;
         }
 
-//        if (stack.size() == 1) {
-//            if (stack.peek() == ')'){
-//                return false;
-//            }
-//
-//            else if (stack.peek() == ']'){
-//                return false;
-//            }
-//
-//            else if (stack.peek() == '}'){
-//                return false;
-//            }
-//        }
-
         for (int i = 0; i < s.length(); i++) {
 
             // 等同于遍历对象

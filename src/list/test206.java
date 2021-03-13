@@ -1,3 +1,5 @@
+package list;
+
 public class test206 {
 
     public class ListNode {

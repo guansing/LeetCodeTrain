@@ -1,3 +1,5 @@
+package string;
+
 public class test283 {
     public void moveZeroes(int[] nums) {
 

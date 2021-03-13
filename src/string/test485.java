@@ -1,3 +1,5 @@
+package string;
+
 public class test485 {
     public int findMaxConsecutiveOnes(int[] nums) {
         int maxNum = 0;

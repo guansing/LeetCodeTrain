@@ -1,3 +1,5 @@
+package hash;
+
 public class test705 {
     boolean[] hashset = null;
 

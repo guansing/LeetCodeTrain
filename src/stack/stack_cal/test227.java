@@ -1,3 +1,5 @@
+package stack.stack_cal;
+
 import com.sun.javafx.logging.JFRInputEvent;
 
 import java.util.Stack;

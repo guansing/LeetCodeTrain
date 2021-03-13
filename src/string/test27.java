@@ -1,3 +1,5 @@
+package string;
+
 public class test27 {
     public int removeElement(int[] nums, int val) {
         int i = 0;

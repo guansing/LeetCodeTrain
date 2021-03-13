@@ -1,3 +1,5 @@
+package hash;
+
 import com.sun.tools.javac.code.Attribute;
 
 import java.sql.Array;

@@ -9,7 +9,10 @@ public class test25 {
         ListNode(int val, ListNode next) { this.val = val; this.next = next; }
     }
 
-    public ListNode reverseKGroup(ListNode head, int k) {
 
+
+    // 还是没太理解这个
+    public ListNode reverseKGroup(ListNode head, int k) {
+        return null;
     }
 }

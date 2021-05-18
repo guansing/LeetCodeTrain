@@ -1,8 +1,7 @@
-import java.math.BigInteger;
-import java.util.Stack;
+package string;
 
 public class test5713 {
-    public int numDifferentIntegers(String word) {
+    public int[] numDifferentIntegers(String word) {
         int[] newWord = new int[1000];
         for (int i = 0; i < word.length(); i++) {
             char c = word.charAt(i);
@@ -16,7 +15,7 @@ public class test5713 {
                 newWord[i] = cutInt;
             }
         }
-
+return newWord;
 
 
     }

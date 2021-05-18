@@ -27,6 +27,7 @@ public class Solution {
                      Deque<Integer> path, boolean[] used,
                      List<List<Integer>> res) {
         if (depth == len) {
+            System.out.println(path + "队列满了,将其中一种排列情况加入到数组中");
             res.add(new ArrayList<>(path));
             return;
         }
@@ -35,13 +36,17 @@ public class Solution {
             if (!used[i]) {
                 path.addLast(nums[i]);
                 used[i] = true;
+                System.out.println("此时该数字被加入到队列中,说明已经被使用");
 
                 System.out.println("  递归之前 => " + path);
+                System.out.println("在DFS执行前,此时的used情况为: "+used[i]);
                 dfs(nums, len, depth + 1, path, used, res);
+                System.out.println("在DFS都执行完成后,此时的used情况为: "+used[i]);
 
                 used[i] = false;
+                System.out.println("usd = false,需要换了");
                 path.removeLast();
-                System.out.println("递归之后 => " + path);
+                System.out.println("递归之后 => " + path + used[i]);
             }
         }
     }

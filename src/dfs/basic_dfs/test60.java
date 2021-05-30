@@ -1,4 +1,4 @@
-package dfs;
+package dfs.basic_dfs;
 
 public class test60 {
     public String getPermutation(int n, int k) {

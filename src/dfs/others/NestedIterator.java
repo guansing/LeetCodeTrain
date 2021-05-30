@@ -1,4 +1,6 @@
-package dfs;
+package dfs.others;
+
+import dfs.others.NestedInteger;
 
 import java.util.ArrayDeque;
 import java.util.Deque;

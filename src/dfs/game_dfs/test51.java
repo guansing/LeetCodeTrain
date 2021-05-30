@@ -1,4 +1,4 @@
-package dfs;
+package dfs.game_dfs;
 
 import java.util.*;
 

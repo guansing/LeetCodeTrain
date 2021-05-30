@@ -1,4 +1,4 @@
-package dfs;
+package dfs.basic_dfs;
 
 public class test112 {
     public class TreeNode {

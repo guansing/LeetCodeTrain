@@ -1,4 +1,4 @@
-package dfs;
+package dfs.basic_dfs;
 
 import java.lang.reflect.Array;
 import java.util.*;
@@ -52,9 +52,9 @@ public class test491 {
         }
     }
 
-    public static void main(String[] args) {
-        test491 a = new test491();
-        int[] nums = new int[]{4,6,7,7};
-        System.out.println(a.findSubsequences(nums));
-    }
+//    public static void main(String[] args) {
+//        test491 a = new test491();
+//        int[] nums = new int[]{4,6,7,7};
+//        System.out.println(a.findSubsequences(nums));
+//    }
 }

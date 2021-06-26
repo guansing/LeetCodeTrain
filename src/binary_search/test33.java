@@ -15,11 +15,6 @@ public class test33 {
                 return mid;
             }
 
-            if (nums[left] == nums[mid] && nums[mid] == nums[right]) {
-                left = left + 1;
-                right = right - 1;
-            }
-
             else if (nums[left] <= nums[mid]) {
                 if (nums[left] <= target && target < nums[mid]) {
                     right = mid - 1;

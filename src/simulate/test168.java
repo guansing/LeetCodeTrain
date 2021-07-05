@@ -15,10 +15,10 @@ public class test168 {
         return res;
     }
 
-    public static void main(String[] args) {
-        test168 a = new test168();
-        String w = a.convertToTitle(701);
-        System.out.println(w);
-
-    }
+//    public static void main(String[] args) {
+//        test168 a = new test168();
+//        String w = a.convertToTitle(701);
+//        System.out.println(w);
+//
+//    }
 }

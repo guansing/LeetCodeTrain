@@ -1,8 +1,5 @@
 package tree;
 
-import com.sun.org.apache.xpath.internal.objects.XNodeSet;
-import sun.tools.jconsole.inspector.XNodeInfo;
-
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Stack;
